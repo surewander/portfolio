@@ -74,10 +74,10 @@ const WorkComponent = () => {
                                 <Grid mt={0.5} pl={3} pb={3}>
                                     <a href={'https://mern-shop-milan.netlify.app/'}>
 
-                                    </a>
                                     <Button variant="contained" color="primary">
                                         Learn More...!!
                                     </Button>
+                                    </a>
                                 </Grid>
 
                             </Grid>

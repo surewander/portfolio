@@ -456,7 +456,7 @@ const FooterComponent = () => {
                         width: {
                             md: '60%'
                         }
-                    }} xs={5} textAlign={'start'} >
+                    }} xs={11} textAlign={'start'} >
                         <Reveal hidden={{ opacity: 0, y: 100 }} visible={{ opacity: 1, y: 0 }} >
                             <Typography mb={1} variant="h3"
                             >
