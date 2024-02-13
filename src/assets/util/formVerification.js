@@ -3,7 +3,7 @@ const formVerification = (value, chkTypes) => {
 
 
 
-    const isNotEmpty = (value) => {
+    var isNotEmpty = (value) => {
         //logic to check is value empty
         console.log('function invoked')
         let obj = {
@@ -15,7 +15,7 @@ const formVerification = (value, chkTypes) => {
         console.log('returned value', obj)
         return obj;
     }
-    const isPhnNumber = (value) => {
+    var isPhnNumber = (value) => {
         // logic to check
         let myOk = "";
         const parsedNumber = Number(value);
@@ -40,7 +40,7 @@ const formVerification = (value, chkTypes) => {
         }
         return obj;
     }
-    const isEmail = (value) => {
+    var isEmail = (value) => {
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         let obj = {
             checkType: 'isEmail',
@@ -50,7 +50,7 @@ const formVerification = (value, chkTypes) => {
         obj.message = obj.ok ? "" : "Please enter a valid email."
         return obj;
     }
-    const hasUpperCase = (value) => {
+    var hasUpperCase = (value) => {
         let obj = {
             checkType: 'hasUpperCase',
             ok: false,
@@ -66,7 +66,7 @@ const formVerification = (value, chkTypes) => {
         return obj;
     }
 
-    const hasNoSpace = (str) => {
+    var hasNoSpace = (str) => {
         let obj = {
             checkType: 'hasUpperCase',
             ok: null,
