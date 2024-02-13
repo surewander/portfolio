@@ -1,7 +1,7 @@
 import { Button, Grid, Typography } from "@mui/material"
 
 import ecom from "../images/Ecom.jpg"
-import myColors from "../util/myColors"
+import myColors from "../assets/util/myColors.js"
 import Reveal from "./Reveal"
 
 

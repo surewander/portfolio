@@ -1,9 +1,9 @@
 import { Box, Button, Divider, Grid, TextField, Typography } from "@mui/material";
-import myColors from "../util/myColors";
+import myColors from "../assets/util/myColors.js";
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 
-import formVerification from "../util/formVerification";
+import formVerification from "../assets/util/formVerification.js";
 
 import { useEffect, useReducer, useState } from "react";
 import { Height } from "@mui/icons-material";

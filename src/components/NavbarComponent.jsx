@@ -1,7 +1,7 @@
 import { AppBar, Box, Button, Drawer, IconButton, List, ListItem, Paper, Toolbar, Typography } from "@mui/material"
 import MenuIcon from '@mui/icons-material/Menu';
 import { useEffect, useRef, useState } from "react";
-import myColors from "../util/myColors";
+import myColors from "../assets/util/myColors.js";
 import logo from "../images/logo.png"
 import { Link } from "react-scroll";
 

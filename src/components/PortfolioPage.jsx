@@ -1,6 +1,6 @@
 import { Grid, ThemeProvider, createTheme } from "@mui/material";
 import JumbotronComponent from "./JumbotronComponent";
-import myColors from "../util/myColors";
+import myColors from "../assets/util/myColors.js";
 import NavbarComponent from "./NavbarComponent";
 import MobileJumbotronComponent from "./MobileJumbotronComponent";
 import AboutComponent from "./AboutComponent";
