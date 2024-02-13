@@ -66,12 +66,38 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures consistent sizing */
+}
+
+html {
+  /* width: 100vw; */
+  margin: 0;
+}
 
 body {
   font-family: "Space Grotesk";
+
+  /* width: 100vw; */
+  margin: 0;
+  /* display: flex; */
+  /* place-items: center; */
+  
 }
 
-.MuiButton-sizeLarge{
+.MuiButton-sizeLarge {
   border-radius: 30px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#root {
+  padding: 0;
+  margin: 0;
+  max-width: fit-content;
 }
 

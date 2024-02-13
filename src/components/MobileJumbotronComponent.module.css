@@ -1,0 +1,19 @@
+.jumbotron {
+    background-size: cover;  /* Or 'contain' for a different fit */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: url('../images/jumbotron.svg'); */
+    /* //display: flex; */
+    height: 70vh;
+    /* border-radius: 20px; */
+    
+}
+
+
+.transparentBackground {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(1px); /* Blur the background for a frosted effect */
+  /* -webkit-backdrop-filter: blur(1px);  */
+  border-radius: 20px; /* Soften the edges */
+  padding: 1em;
+}
