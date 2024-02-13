@@ -46,7 +46,7 @@ const MobileJumbotronComponent = () => {
                         </Reveal>
                     </Grid>
 
-                    <Grid item xs={5}>
+                    <Grid item xs={6}>
                         <Reveal hidden={{ opacity: 0, x: -200 }} visible={{ opacity: 1, x: 0 }} >
                             <a style={{
                                 width: '100%'

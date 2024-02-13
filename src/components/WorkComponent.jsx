@@ -72,6 +72,9 @@ const WorkComponent = () => {
                                     An online shop built on MERN stack. A user can sign in and sign out both authenticated using JWT, can add a product and also add product to cart and much more...!!!.
                                 </Typography>
                                 <Grid mt={0.5} pl={3} pb={3}>
+                                    <a href={'https://mern-shop-milan.netlify.app/'}>
+
+                                    </a>
                                     <Button variant="contained" color="primary">
                                         Learn More...!!
                                     </Button>
