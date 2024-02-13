@@ -36,7 +36,7 @@ const JumbotronComponent = () => {
 
 
 
-                <Grid mt={3} pl={1} justifyContent={'space-around'} container xs={5} textAlign={'start'}>
+                <Grid mt={3} pl={1} justifyContent={'space-around'} container xs={7} textAlign={'start'}>
 
 
 
