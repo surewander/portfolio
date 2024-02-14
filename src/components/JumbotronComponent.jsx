@@ -56,7 +56,7 @@ const JumbotronComponent = () => {
 
                         <a href={'https://www.linkedin.com/in/milandeep-singh-bhalla-b6aa6721a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnICtI7UDRIqbyd21wyVx7A%3D%3D'} style={{
                             width: '100%'
-                        }}>   <Button fullWidth size="large" variant="contained" color="secondary"> View LinkdIn</Button> </a>
+                        }}>   <Button fullWidth size="large" variant="contained" color="secondary"> View LinkedIn</Button> </a>
                     </Reveal>    
                     </Grid>
 

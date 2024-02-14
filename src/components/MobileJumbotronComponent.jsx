@@ -50,7 +50,7 @@ const MobileJumbotronComponent = () => {
                         <Reveal hidden={{ opacity: 0, x: -200 }} visible={{ opacity: 1, x: 0 }} >
                             <a style={{
                                 width: '100%'
-                            }} href={'https://www.linkedin.com/in/milandeep-singh-bhalla-b6aa6721a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh%2BQXMR%2FSSjCRlt8jxFQaNA%3D%3D'}  ><Button fullWidth size="large" variant="contained" color="secondary"> View LinkdIn</Button>
+                            }} href={'https://www.linkedin.com/in/milandeep-singh-bhalla-b6aa6721a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh%2BQXMR%2FSSjCRlt8jxFQaNA%3D%3D'}  ><Button fullWidth size="large" variant="contained" color="secondary"> View LinkedIn</Button>
                             </a>
                         </Reveal>
                     </Grid>
