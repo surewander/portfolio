@@ -1,4 +1,5 @@
 
+import { Height } from "@mui/icons-material";
 import {motion, useInView, useAnimation} from "framer-motion"
 import { useEffect, useReducer, useRef } from "react"
 
@@ -7,6 +8,7 @@ const Reveal = (props)=>{
     const myWidth = props.width? props.width: "100%"
     const myRef = useRef(null);
     const isInView = useInView(myRef)
+    const animationStyle = props.style?props.style: {}
 
     
     const controls = useAnimation()
@@ -17,12 +19,16 @@ const Reveal = (props)=>{
     },[isInView])
     return (
         <div style={{
-            position: "relative", width: myWidth, overflow: 'hidden'
+            position: "relative", width: myWidth, overflow: 'hidden', ...animationStyle
         }} ref={myRef}>
             <motion.div
                 variants={{
                     hidden: props.hidden,
                     visible: props.visible
+                }}
+                style={{
+                    height: '100%',
+                    //backgroundColor: 'transparent'
                 }}
                 initial="hidden"
                 animate={controls}
